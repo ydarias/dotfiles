@@ -1,5 +1,7 @@
 #!/bin/sh
 
+set -e
+
 # Check for Homebrew
 if test ! $(which brew)
 then
@@ -8,5 +10,15 @@ then
 else
   echo "✅ Homebrew already installed"
 fi
+
+# Make sure we’re using the latest Homebrew.
+echo "⏳ Updating Homebrew to last version ..."
+brew update
+echo "✅ Homebrew was updated"
+
+# Upgrade any already-installed formulae.
+echo "⏳ Upgrading installed formulae ..."
+brew upgrade
+echo "✅ Homebrew formulas updated"
 
 exit 0
