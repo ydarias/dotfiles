@@ -1,0 +1,1 @@
+alias -g fork='open -F -a Fork'
