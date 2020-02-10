@@ -21,4 +21,11 @@ echo "⏳ Upgrading installed formulae ..."
 brew upgrade
 echo "✅ Homebrew formulas updated"
 
+brew install curl
+brew install navi
+brew install wget
+
+brew cleanup
+echo "✅ Removed outdated formulas"
+
 exit 0
