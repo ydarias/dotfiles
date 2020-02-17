@@ -4,7 +4,7 @@ if [ ! -d $JAVA_HOME ]; then
 	JAVA_HOME=${1}
 fi
 
-KEYSTORE=$JAVA_HOME/jre/lib/security/cacerts
+KEYSTORE=$JAVA_HOME/lib/security/cacerts
 if [ ! -f "$KEYSTORE" ]; then
 	echo "Keystore not found in '$KEYSTORE'"
 	exit 1
