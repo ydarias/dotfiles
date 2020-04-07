@@ -1,1 +1,3 @@
 alias -g fork='open -F -a Fork'
+alias -g fix-bt='~/dotfiles/scripts/restart-bluetooth.sh'
+alias -g fix-audio='~/dotfiles/scripts/restart-audio.sh'
