@@ -24,6 +24,7 @@ echo "✅ Homebrew formulas updated"
 brew install curl
 brew install navi
 brew install wget
+brew install python3
 
 brew cleanup
 echo "✅ Removed outdated formulas"
