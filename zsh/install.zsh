@@ -1,1 +1,1 @@
-ln -s ~/dotfiles/zsh/.aliases ~/.aliases
+ln -f -s ~/dotfiles/zsh/.aliases ~/.aliases

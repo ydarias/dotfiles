@@ -21,10 +21,15 @@ echo "⏳ Upgrading installed formulae ..."
 brew upgrade
 echo "✅ Homebrew formulas updated"
 
-brew install curl
-brew install navi
-brew install python3
-brew install wget
+apps=(
+  curl
+  helm
+  navi
+  python3
+  wget
+)
+
+brew install "${apps[@]}"
 
 brew cleanup
 echo "✅ Removed outdated formulas"

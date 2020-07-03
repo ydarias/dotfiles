@@ -1,13 +1,17 @@
 all: \
-	homebrew \
-	homebrew-casks \
-	zsh
+	brew \
+	cask \
+	terminal
 
-homebrew: 
+brew-all: \
+	brew \
+	cask
+
+brew: 
 	homebrew/install.sh
 
-homebrew-casks: 
+cask: 
 	homebrew/install-casks.sh
 
-zsh: 
+terminal: 
 	zsh/install.zsh
