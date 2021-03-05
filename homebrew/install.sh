@@ -23,7 +23,10 @@ echo "✅ Homebrew formulas updated"
 
 apps=(
   curl
+  go
+  gradle
   helm
+  htop
   navi
   python3
   wget

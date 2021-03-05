@@ -7,12 +7,14 @@ brew tap homebrew/homebrew-cask
 echo "✅ Homebrew casks tapped"
 
 apps=(
-    dash
-    firefox
-    gpg-suite
+  1password
+  dash
+  firefox
+  iterm2
+  gpg-suite
 )
 
-brew cask install "${apps[@]}"
+brew install --cask "${apps[@]}"
 
 brew cleanup
 echo "✅ Removed outdated formulas"
