@@ -8,6 +8,7 @@ echo "✅ Homebrew casks tapped"
 
 apps=(
   1password
+  clipy
   dash
   firefox
   gpg-suite
