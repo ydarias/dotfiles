@@ -9,6 +9,7 @@ echo "✅ Homebrew casks tapped"
 apps=(
   1password
   clipy
+  cyberduck
   dash
   dropbox
   firefox
