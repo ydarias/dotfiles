@@ -10,10 +10,21 @@ apps=(
   1password
   clipy
   dash
+  dropbox
   firefox
+  gitup
   gpg-suite
+  grandperspective
+  http-toolkit
   iterm2
+  lens
+  nosqlbooster-for-mongodb
+  notion
+  obsidian
+  postman
   slack
+  spotify
+  visual-studio-code
 )
 
 brew install --cask "${apps[@]}"
