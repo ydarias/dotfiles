@@ -10,8 +10,9 @@ apps=(
   1password
   dash
   firefox
-  iterm2
   gpg-suite
+  iterm2
+  slack
 )
 
 brew install --cask "${apps[@]}"
