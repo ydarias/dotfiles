@@ -7,11 +7,14 @@ brew-all: \
 	brew \
 	cask
 
-brew: 
+brew:
 	homebrew/install.sh
 
-cask: 
+cask:
 	homebrew/install-casks.sh
 
-terminal: 
+terminal:
 	zsh/install.zsh
+
+install-wallpapers:
+	wallpapers/install.sh
