@@ -28,6 +28,7 @@ apps=(
   helm
   htop
   navi
+  nvm
   python3
   wget
 )
