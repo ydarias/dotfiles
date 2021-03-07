@@ -13,8 +13,8 @@ brew:
 cask:
 	homebrew/install-casks.sh
 
-terminal:
-	zsh/install.zsh
-
 install-wallpapers:
 	wallpapers/install.sh
+
+terminal:
+    terminal/install.sh
