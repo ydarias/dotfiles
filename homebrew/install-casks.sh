@@ -19,6 +19,7 @@ apps=(
   http-toolkit
   iterm2
   lens
+  mockoon
   nosqlbooster-for-mongodb
   notion
   obsidian

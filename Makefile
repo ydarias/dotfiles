@@ -17,4 +17,4 @@ install-wallpapers:
 	wallpapers/install.sh
 
 terminal:
-    terminal/install.sh
+	terminal/install.sh
