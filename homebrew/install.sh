@@ -29,6 +29,7 @@ apps=(
   htop
   navi
   nvm
+  openshift-cli
   python3
   wget
 )
