@@ -10,7 +10,7 @@ apps=(
   1password
   clipy
   cyberduck
-  dash
+  docker
   dropbox
   firefox
   gitup
@@ -18,12 +18,16 @@ apps=(
   grandperspective
   http-toolkit
   iterm2
+  jetbrains-toolbox
   mockoon
+  nordvpn
   notion
   obsidian
   postman
   slack
   spotify
+  steelseries-gg
+  homebrew/cask-drivers/logitech-g-hub
 )
 
 brew install --cask "${apps[@]}"
