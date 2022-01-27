@@ -25,6 +25,7 @@ brew tap mongodb/brew
 
 apps=(
   curl
+  git
   helm
   htop
   navi
