@@ -18,15 +18,12 @@ apps=(
   grandperspective
   http-toolkit
   iterm2
-  lens
   mockoon
-  nosqlbooster-for-mongodb
   notion
   obsidian
   postman
   slack
   spotify
-  visual-studio-code
 )
 
 brew install --cask "${apps[@]}"

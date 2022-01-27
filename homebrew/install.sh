@@ -21,16 +21,14 @@ echo "⏳ Upgrading installed formulae ..."
 brew upgrade
 echo "✅ Homebrew formulas updated"
 
+brew tap mongodb/brew
+
 apps=(
   curl
-  go
-  gradle
   helm
   htop
   navi
   nvm
-  openshift-cli
-  python3
   wget
 )
 
