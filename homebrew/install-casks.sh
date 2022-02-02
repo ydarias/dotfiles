@@ -27,7 +27,6 @@ apps=(
   postman
   slack
   spotify
-  steelseries-gg
   homebrew/cask-drivers/logitech-g-hub
 )
 
