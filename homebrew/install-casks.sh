@@ -27,6 +27,7 @@ apps=(
   postman
   slack
   spotify
+  telegram
   homebrew/cask-drivers/logitech-g-hub
 )
 
