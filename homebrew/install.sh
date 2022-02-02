@@ -28,6 +28,7 @@ apps=(
   git
   helm
   htop
+  jq
   navi
   nvm
   wget

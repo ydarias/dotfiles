@@ -10,6 +10,7 @@ apps=(
   1password
   clipy
   cyberduck
+  discord
   docker
   dropbox
   firefox
