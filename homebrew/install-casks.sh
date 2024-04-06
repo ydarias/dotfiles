@@ -8,27 +8,29 @@ echo "✅ Homebrew casks tapped"
 
 apps=(
   1password
-  clipy
   cyberduck
   discord
   docker
   dropbox
   firefox
-  gitup
   gpg-suite
-  grandperspective
-  http-toolkit
   iterm2
   jetbrains-toolbox
+  logi-options-plus
+  logitech-presentation
   mockoon
   nordvpn
   notion
+  notion-calendar
   obsidian
+  openvpn-connect
   postman
+  raycast
   slack
   spotify
   telegram
-  homebrew/cask-drivers/logitech-g-hub
+  visual-studio-code
+  zotero
 )
 
 brew install --cask "${apps[@]}"
